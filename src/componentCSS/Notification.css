@@ -1,0 +1,63 @@
+.notification {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid rgb(0, 255, 21);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.notification-container h3{
+    color: red;
+    text-align: center;
+}
+.notification-content {
+    width: 100%;
+    
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1.5px dotted red;
+}
+
+
+.delete-icon{
+    color: red;
+    cursor: pointer;
+}
+.request-details p{
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    font-size: 13px;
+}
+
+@media (min-width: 600px) {
+    .notification {
+        flex-direction: row;
+        align-items: center;
+        height: 200px;
+    }
+
+    .notification-content {
+        width: calc(100% - 70px); /* Adjust this value to accommodate the button width */
+    }
+
+    .request-details {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+}
+.delete-icon{
+    margin-left: 20px;
+}

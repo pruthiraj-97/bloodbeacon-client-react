@@ -1,0 +1,24 @@
+.blood-group-card {
+    display: flex;
+    justify-content:space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+    background-color: rgb(237, 37, 26);
+    margin: 10px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .blood-group-card span{
+    color: white;
+  }
+  
+  .group {
+    font-weight: bold;
+  }
+  
+  .count {
+    margin-left: auto;
+  }

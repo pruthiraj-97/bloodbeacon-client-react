@@ -1,0 +1,1 @@
+export const backend_url='https://bloodbeacon-server-1.onrender.com/api'

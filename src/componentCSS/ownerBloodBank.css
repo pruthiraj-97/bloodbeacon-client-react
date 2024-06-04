@@ -1,0 +1,36 @@
+.blood-bank-container {
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .blood-bank-container h3{
+    text-align: center;
+    color: red;
+  }
+  .blood-bank-details {
+    background-color: #ffebeb;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .blood-bank-details ul {
+    padding: 0;
+  }
+  
+  .blood-bank-details ul li {
+    list-style-type: none;
+  }
+  
+  @media (max-width: 600px) {
+    .blood-bank-container {
+      padding: 10px;
+    }
+  
+    .blood-bank-details {
+      padding: 10px;
+    }
+  }
+  .blood-groups{
+    display: flex;
+    flex-wrap: wrap;
+  }
